@@ -28,6 +28,21 @@ run-all.bat
 
 Cada ventana muestra los logs del servicio correspondiente.
 
+### Usando Laragon
+Si usas Laragon, puedes abrir una terminal integrada y ejecutar `run-all.bat` fácilmente:
+
+1. Abre Laragon (ícono en la bandeja) → `Tools` → `Terminal` (o clic derecho → `Terminal`).
+2. En la terminal de Laragon navega al directorio del backend:
+```bat
+cd %USERPROFILE%\ruta\a\legacyframeapp\backend\APIS_LF_Movil
+```
+3. Ejecuta:
+```bat
+run-all.bat
+```
+
+También puedes ejecutar `run-all.bat` haciendo doble clic en el Explorador de Windows si prefieres una GUI.
+
 ## Arranque manual (opcional)
 En cada carpeta de servicio puedes ejecutar:
 ```bat

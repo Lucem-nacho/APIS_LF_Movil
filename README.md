@@ -16,10 +16,10 @@ git submodule update --init --recursive
 ## Arrancar todos los servicios (Windows)
 Se incluye `run-all.bat` para abrir 4 ventanas y ejecutar cada microservicio en puertos distintos:
 
-- auth_movil -> 8081
-- contacto -> 8082
-- pedidos -> 8083
-- productos -> 8084
+- auth_movil -> 8085
+- contacto -> 8081
+- pedidos -> 8084
+- productos -> 8083
 
 Uso desde `legacyframeapp/backend/APIS_LF_Movil`:
 ```bat
